@@ -31,4 +31,21 @@ const listAllKnownKeys = require('linux-key-info').listAllKnownKeys;
 console.log('All known keys:',listAllKnownKeys());
 ```
 
+## Example usage with 'input-event' package
 
+```bash
+$ npm i input-event linux-key-info --save
+```
+
+```javascript
+const InputEvent = require('input-event');
+const keyCodeInfo = require('linux-key-info').keyCodeInfo;
+
+const input = new InputEvent('/dev/input/event0');
+const keyboard = new InputEvent.Keyboard(input);
+
+keyboard.on('keypress', (event) => {
+  const info = keyCodeInfo(event.code);
+  console.log(`Key pressed: code=${event.code}, name="${info.name}", char="${info.char}"`);
+});
+```

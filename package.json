@@ -5,9 +5,10 @@
   "main": "index.js",
   "keywords": [
     "keycode",
+    "input-event",
     "linux",
     "node",
-    "charecter",
+    "character",
     "keyboard"
   ],
   "repository": "git@github.com:yoava/node-linux-key-info.git",
