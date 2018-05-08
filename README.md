@@ -1,5 +1,5 @@
 [![npm](https://img.shields.io/npm/l/linux-key-info.svg)](https://github.com/yoava/node-linux-key-info/blob/master/LICENSE)
-[![Github file size](https://img.shields.io/github/size/yoava/node-linux-key-info/index.js.svg)](https://www.npmjs.com/package/linux-key-info)
+[![Github file size](https://img.shields.io/github/size/yoava/node-linux-key-info/dist/linux-key-info.min.js.svg)](https://www.npmjs.com/package/linux-key-info)
 [![GitHub tag](https://img.shields.io/github/tag/yoava/node-linux-key-info.svg)](https://github.com/yoava/node-linux-key-info/tags)
 [![npm](https://img.shields.io/npm/v/linux-key-info.svg)](https://www.npmjs.com/package/linux-key-info)
 [![Bintray](https://img.shields.io/bintray/v/yoava/npm/node-linux-key-info.svg)](https://bintray.com/yoava/npm/node-linux-key-info)
