@@ -1,6 +1,6 @@
 {
   "name": "linux-key-info",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple utility for getting key info for a given linux key code",
   "main": "index.js",
   "keywords": [
