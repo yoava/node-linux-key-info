@@ -1,0 +1,31 @@
+## Eclipse ############
+.metadata/
+.settings/
+.project
+.classpath
+
+## IntelliJ ###########
+.idea/
+out/
+*.iml
+*.ipr
+*.iws
+atlassian-ide-plugin.xml
+*.patch
+
+## Logs ###############
+*.log
+
+## Gradle #############
+.gradle/
+build/
+
+## Web & NodeJS #######
+node_modules/
+
+## Mac ################
+.DS_Store
+
+## Windows ############
+Thumbs.db
+ehthumbs.db
